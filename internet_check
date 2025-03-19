@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+echo "Checking if you have any Internet connection available, please chill out........"
+
+if ping -c 1 google.com
+then
+echo "You are connected to the internet"
+else
+echo "Communication to the server failed"
+fi
+
+
